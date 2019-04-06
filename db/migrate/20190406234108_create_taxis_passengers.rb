@@ -1,4 +1,4 @@
-class CreateJoinTable < ActiveRecord::Migration[5.0]
+class CreateTaxisPassengers < ActiveRecord::Migration[5.0]
   def change
     create_table :taxis_passengers do |t|
         t.taxi_id
